@@ -1,0 +1,10 @@
+-server
+-Xms4096M
+-Xmx4096M
+-XX:ReservedCodeCacheSize=1024m
+-XX:+UseCompressedOops
+-XX:SoftRefLRUPolicyMSPerMB=50
+-Dsun.io.useCanonCaches=false
+-XX:-OmitStackTraceInFastThrow
+-XX:MaxJavaStackTraceDepth=-1
+-Djava.net.preferIPv4Stack=true
